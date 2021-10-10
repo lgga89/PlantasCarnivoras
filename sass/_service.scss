@@ -1,0 +1,21 @@
+.service {
+  margin: 0 auto;
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  border: none;
+}
+
+.ico__service {
+  color: rgb(42, 216, 42);
+  font-size: 30px;
+}
+
+.bar {
+  background: green;
+  height: 80px;
+}

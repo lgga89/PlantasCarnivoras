@@ -1,0 +1,11 @@
+.description__container {
+  display: flex;
+  justify-content: center;
+  .description {
+    margin-top: 50px;
+    width: 50%;
+    .paragraph__description {
+      margin-top: 50px;
+    }
+  }
+}

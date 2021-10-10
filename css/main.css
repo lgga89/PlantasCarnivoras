@@ -11959,3 +11959,64 @@ fieldset:disabled .btn {
     display: none !important;
   }
 }
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body .container {
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+.img-fluid {
+  width: 100%;
+  padding: 0;
+}
+
+.description__container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.description__container .description {
+  margin-top: 50px;
+  width: 50%;
+}
+
+.description__container .description .paragraph__description {
+  margin-top: 50px;
+}
+
+.service {
+  margin: 0 auto;
+  width: 80%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.card {
+  border: none;
+}
+
+.ico__service {
+  color: #2ad82a;
+  font-size: 30px;
+}
+
+.bar {
+  background: green;
+  height: 80px;
+}
