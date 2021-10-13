@@ -12029,7 +12029,7 @@ body .container {
   width: 60%;
 }
 
-.products__container {
+.categorys__container {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -12042,13 +12042,13 @@ body .container {
   margin: 0 auto;
 }
 
-.products__description {
+.category__description {
   width: 70%;
   text-align: center;
   margin: 30px auto;
 }
 
-.product {
+.category {
   width: 80%;
   text-align: center;
   display: -webkit-box;
@@ -12060,29 +12060,63 @@ body .container {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
 }
 
-.product .product__container {
+.category .category__container {
   text-align: center;
   position: relative;
+  overflow: hidden;
+  margin: 20px;
+  padding: 0;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+          box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  -webkit-column-count: 1;
+          column-count: 1;
+  max-width: 960px;
+  -webkit-column-span: all;
+  column-span: all;
+  -webkit-column-break-inside: avoid;
+          break-inside: avoid;
+  page-break-inside: avoid;
 }
 
-.product .product__container .img__product {
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(25, 209, 231, 0.5)), to(rgba(243, 17, 224, 0.5)));
-  background-image: linear-gradient(rgba(25, 209, 231, 0.5), rgba(243, 17, 224, 0.5));
-}
-
-.product .product__container :hover {
-  opacity: 0.9;
-}
-
-.product .product__container .title_product {
+.category .category__container .cap {
   position: absolute;
-  top: 50%;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #fff;
+  -webkit-transform: scale(0);
+          transform: scale(0);
+  -webkit-transition: 0.3s ease;
+  transition: 0.3s ease;
+}
+
+.category .category__container .title_category {
+  position: absolute;
+  top: 40%;
   left: 0;
   right: 0;
   bottom: 0;
   font-size: 60px;
   width: none;
-  color: green;
+  color: white;
+}
+
+.category__container:hover .cap {
+  -webkit-transform: scale(1);
+          transform: scale(1);
 }
