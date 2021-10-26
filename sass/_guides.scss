@@ -1,11 +1,23 @@
 .guides {
   margin-top: 50px;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  padding: 0;
   .guide__images {
+    width: 50%;
+    padding: 0;
     .img__guide {
-      width: 600px;
+      width: 800px;
+    }
+  }
+  .guides__description {
+    background-color: rgb(13, 91, 13);
+    width: 50%;
+    padding: 5% 10%;
+    font-size: 18px;
+    font-style: italic;
+    color: white;
+    .title__guides {
+      margin-bottom: 50px;
     }
   }
 }

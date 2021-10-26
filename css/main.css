@@ -12084,14 +12084,27 @@ body .container {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  padding: 0;
+}
+
+.guides .guide__images {
+  width: 50%;
+  padding: 0;
 }
 
 .guides .guide__images .img__guide {
-  width: 600px;
+  width: 800px;
+}
+
+.guides .guides__description {
+  background-color: #0d5b0d;
+  width: 50%;
+  padding: 5% 10%;
+  font-size: 18px;
+  font-style: italic;
+  color: white;
+}
+
+.guides .guides__description .title__guides {
+  margin-bottom: 50px;
 }
