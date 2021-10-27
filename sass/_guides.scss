@@ -9,15 +9,32 @@
       width: 800px;
     }
   }
-  .guides__description {
+}
+.guides {
+  .guides__container {
     background-color: rgb(13, 91, 13);
     width: 50%;
-    padding: 5% 10%;
     font-size: 18px;
     font-style: italic;
     color: white;
+    padding: 0 60px;
+
     .title__guides {
-      margin-bottom: 50px;
+      margin: 50px 0;
+    }
+    .guides__container--description {
+      .guides__description {
+        display: flex;
+        margin-bottom: 20px;
+        .guides__ico {
+          font-size: 70px;
+          border: 2px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          margin-right: 20px;
+        }
+      }
     }
   }
 }

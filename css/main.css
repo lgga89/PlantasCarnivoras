@@ -12035,13 +12035,8 @@ body .container {
 }
 
 .ico__service {
-  color: #2ad82a;
+  color: green;
   font-size: 30px;
-}
-
-.bar {
-  background: green;
-  height: 80px;
 }
 
 .img_service {
@@ -12096,15 +12091,109 @@ body .container {
   width: 800px;
 }
 
-.guides .guides__description {
+.guides .guides__container {
   background-color: #0d5b0d;
   width: 50%;
-  padding: 5% 10%;
   font-size: 18px;
   font-style: italic;
   color: white;
+  padding: 0 60px;
 }
 
-.guides .guides__description .title__guides {
-  margin-bottom: 50px;
+.guides .guides__container .title__guides {
+  margin: 50px 0;
+}
+
+.guides .guides__container .guides__container--description .guides__description {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.guides .guides__container .guides__container--description .guides__description .guides__ico {
+  font-size: 70px;
+  border: 2px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-right: 20px;
+}
+
+.bar {
+  background: green;
+  color: white;
+  padding: 40px;
+}
+
+.bar .bar__container {
+  max-width: 100%;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.bar .bar__container .title__bar {
+  margin: 0;
+  padding: 15px 40px;
+}
+
+.bar .bar__container .btn__bar {
+  background-color: #199319;
+  color: white;
+  padding: 15px 40px;
+  text-decoration: none;
+  cursor: pointer;
+  border-radius: 18px;
+  border: white solid 1px;
+  font-weight: 800;
+  font-size: 18px;
+  vertical-align: middle;
+}
+
+.bar .bar__container .btn__bar:hover {
+  color: #1883ba;
+  background-color: #ffffff;
+}
+
+.map {
+  position: relative;
+  color: white;
+}
+
+.map iframe {
+  width: 100%;
+  height: 350px;
+}
+
+.map .map__container {
+  position: absolute;
+  right: 15%;
+  top: 100px;
+  padding: 45px 50px;
+  border-radius: 6px;
+  background-color: rgba(0, 0, 0, 0.8);
+  z-index: 1;
+}
+
+footer {
+  background: #2a2828;
+  color: white;
+  width: 100%;
+  padding: 20px;
+}
+
+footer .paragraph__footer {
+  margin: 0;
+  text-align: center;
 }
