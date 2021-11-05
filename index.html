@@ -14,7 +14,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
         crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="/libs/bootstrap/dist/css/bootstrap.min.css">
+
 </head>
 
 <body>
@@ -56,8 +56,8 @@
         </div>
         <!--DESCRIPTION-->
         <article class="row">
-            <div class="col-12  text-center mt-5 description__container ">
-                <div class="description">
+            <div class="col-sm-12  mt-5  description__container ">
+                <div class="description  ">
                     <h1>Bienvenidos a DroserasPlants
                     </h1>
                     <p class="paragraph__description">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Saepe
@@ -72,11 +72,16 @@
         <!--SERVICE-->
         <div class="row  service">
             <!--IZQUIERDA-->
-            <div class="col-6 ">
+            <article class="col-6 service__container--img">
                 <img class="img_service img-fluid " src="images/service.png" alt="Responsive image" alt="">
-            </div>
+            </article>
             <!--DERECHA-->
-            <div class="col-6 ">
+            <article>
+
+            </article>
+
+
+            <!-- <div class="col-6 ">
                 <div class="row ">
                     <div class="col-6   p-2">
                         <article class="card h-100 ">
@@ -142,108 +147,114 @@
                     </div>
                 </div>
             </div>
-        </div>
-        <!--BARRA-->
-        <div class="row bar">
-            <div class="bar__container">
-                <h2 class="title__bar">¿Necesita una planta carnivora para su hogar? Llame al: (123) 884400</h2>
-                <button class="btn__bar">Contacto </button>
-            </div>
-        </div>
-        <!--CATEGORY-->
-        <div class="row category">
-            <div class="category__description">
-                <h2 class="h2 category__title">CATEGORIA</h2>
-                <p class="category__paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus in
-                    molestias obcaecati quas saepe
-                    quibusdam nam reiciendis reprehenderit animi beatae cum atque aut accusamus, nihil tempore ab! Cum,
-                    omnis aliquam.</p>
-            </div>
+        </div>-->
 
-            <div class="row category__container--img  ">
-                <div class="col-3  ">
-                    <img src="images/venus.jpg " class="img-fluid img__category" alt="Responsive image">
-                    <h2>Venus</h2>
-                </div>
-                <div class="col-3  ">
-                    <img src="images/drosera.jpg " class="img-fluid img__category" alt="Responsive image">
-                    <h2>Drosera</h2>
-                </div>
-                <div class="col-3  ">
-                    <img src="images/nepentes.jpg" class="img-fluid img__category" alt="Responsive image">
-                    <h2>Nephentes</h2>
+
+
+
+
+            <!--BARRA-->
+            <div class="row bar">
+                <div class="bar__container">
+                    <h2 class="title__bar">¿Necesita una planta carnivora para su hogar? Llame al: (123) 884400</h2>
+                    <button class="btn__bar">Contacto </button>
                 </div>
             </div>
-
-
-        </div>
-        <!--GUIA DE TRATAMIENTO-->
-        <div class="row guides">
-            <div class="col-5  guide__images">
-                <img src="images/guides.jpg" class="img-fluid img__guide" alt="Responsive image">
-            </div>
-            <div class="col-5 guides__container">
-                <h2 class="title__guides">Guia de Cuidados</h2>
-                <div class="guides__container--description">
-                    <div class="guides__description">
-                        <i class="far fa-check-circle guides__ico"></i>
-                        <p class="guides__paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim
-                            laudantium velit explicabo
-                            aliquid neque perspiciatis.</p>
-                    </div>
-                    <div class="guides__description">
-                        <i class="far fa-check-circle guides__ico"></i>
-                        <p class="guides__paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim
-                            laudantium velit explicabo
-                            aliquid neque perspiciatis.</p>
-                    </div>
-                    <div class="guides__description">
-                        <i class="far fa-check-circle guides__ico"></i>
-                        <p class="guides__paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim
-                            laudantium velit explicabo
-                            aliquid neque perspiciatis.</p>
-                    </div>
-                    <div class="guides__description">
-                        <i class="far fa-check-circle guides__ico"></i>
-                        <p class="guides__paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim
-                            laudantium velit explicabo
-                            aliquid neque perspiciatis.</p>
-                    </div>
-
+            <!--CATEGORY-->
+            <div class="row category">
+                <div class="category__description">
+                    <h2 class="h2 category__title">CATEGORIA</h2>
+                    <p class="category__paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus in
+                        molestias obcaecati quas saepe
+                        quibusdam nam reiciendis reprehenderit animi beatae cum atque aut accusamus, nihil tempore ab!
+                        Cum,
+                        omnis aliquam.</p>
                 </div>
-            </div>
-        </div>
 
-        <!--MAP-->
-        <div class="map">
-            <iframe
-                src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d25525.948832146045!2d-70.24668649756072!3d-18.004075868389982!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses-419!2spe!4v1635312930502!5m2!1ses-419!2spe"
-                allowfullscreen="" loading="lazy">
-            </iframe>
-            <div class="map__container">
-                <div class="map__contac">
-                    <h3>Comunicate con Nosotros</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. </p>
-                    <div class="map__description">
-                        <i class="fas fa-map-marker-alt map__ico"></i>
-                        <p class="map__paragraph">Tacna, Calle Zela N°158</p>
+                <div class="row category__container--img  ">
+                    <div class="col-3  ">
+                        <img src="images/venus.jpg " class="img-fluid img__category" alt="Responsive image">
+                        <h2>Venus</h2>
                     </div>
-                    <div class="map__description">
-                        <i class="fas fa-phone-alt map__ico"></i>
-                        <p class="map__paragraph">+520457852</p>
+                    <div class="col-3  ">
+                        <img src="images/drosera.jpg " class="img-fluid img__category" alt="Responsive image">
+                        <h2>Drosera</h2>
                     </div>
-                    <div class="map__description">
-                        <i class="far fa-envelope map__ico"></i>
-                        <p class="map__paragraph">plantasCarnivoras@hotmail.com</p>
+                    <div class="col-3  ">
+                        <img src="images/nepentes.jpg" class="img-fluid img__category" alt="Responsive image">
+                        <h2>Nephentes</h2>
+                    </div>
+                </div>
+
+
+            </div>
+            <!--GUIA DE TRATAMIENTO-->
+            <div class="row guides">
+                <div class="col-5  guide__images">
+                    <img src="images/guides.jpg" class="img-fluid img__guide" alt="Responsive image">
+                </div>
+                <div class="col-5 guides__container">
+                    <h2 class="title__guides">Guia de Cuidados</h2>
+                    <div class="guides__container--description">
+                        <div class="guides__description">
+                            <i class="far fa-check-circle guides__ico"></i>
+                            <p class="guides__paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim
+                                laudantium velit explicabo
+                                aliquid neque perspiciatis.</p>
+                        </div>
+                        <div class="guides__description">
+                            <i class="far fa-check-circle guides__ico"></i>
+                            <p class="guides__paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim
+                                laudantium velit explicabo
+                                aliquid neque perspiciatis.</p>
+                        </div>
+                        <div class="guides__description">
+                            <i class="far fa-check-circle guides__ico"></i>
+                            <p class="guides__paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim
+                                laudantium velit explicabo
+                                aliquid neque perspiciatis.</p>
+                        </div>
+                        <div class="guides__description">
+                            <i class="far fa-check-circle guides__ico"></i>
+                            <p class="guides__paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim
+                                laudantium velit explicabo
+                                aliquid neque perspiciatis.</p>
+                        </div>
+
                     </div>
                 </div>
             </div>
+
+            <!--MAP-->
+            <div class="map">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d25525.948832146045!2d-70.24668649756072!3d-18.004075868389982!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses-419!2spe!4v1635312930502!5m2!1ses-419!2spe"
+                    allowfullscreen="" loading="lazy">
+                </iframe>
+                <div class="map__container">
+                    <div class="map__contac">
+                        <h3>Comunicate con Nosotros</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. </p>
+                        <div class="map__description">
+                            <i class="fas fa-map-marker-alt map__ico"></i>
+                            <p class="map__paragraph">Tacna, Calle Zela N°158</p>
+                        </div>
+                        <div class="map__description">
+                            <i class="fas fa-phone-alt map__ico"></i>
+                            <p class="map__paragraph">+520457852</p>
+                        </div>
+                        <div class="map__description">
+                            <i class="far fa-envelope map__ico"></i>
+                            <p class="map__paragraph">plantasCarnivoras@hotmail.com</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <footer>
+                <p class="paragraph__footer">© Copyright 2021.</p>
+            </footer>
         </div>
-        <footer>
-            <p class="paragraph__footer">© Copyright 2021.</p>
-        </footer>
-    </div>
-    <script src="libs/bootstrap/dist/js/bootstrap.min.js"></script>
+        <script src="libs/bootstrap/dist/js/bootstrap.min.js"></script>
 </body>
 
 </html>
