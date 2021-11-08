@@ -1,6 +1,7 @@
 .map {
   position: relative;
   color: white;
+  border: none;
 
   iframe {
     width: 100%;
@@ -8,9 +9,11 @@
   }
   .map__container {
     position: absolute;
-    right: 15%;
+    right: 0;
+    left: 0;
+
     top: 100px;
-    padding: 45px 50px;
+    padding: 10px;
     border-radius: 6px;
     background-color: rgba(0, 0, 0, 0.8);
     .map__contac {
@@ -27,6 +30,19 @@
           font-size: 20px;
         }
       }
+    }
+  }
+}
+@media (min-width: 576px) {
+  .map {
+    .map__container {
+      position: absolute;
+      right: 0;
+      left: auto;
+      top: 100px;
+      padding: 20px;
+      margin-right: 100px;
+      width: 400px;
     }
   }
 }

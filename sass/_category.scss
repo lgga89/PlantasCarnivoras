@@ -9,13 +9,16 @@
     }
   }
   .category__container--img {
-    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
-  }
-  .img__category {
-    width: 500px;
-    height: 300px;
+
+    .col-sm-4 {
+      margin-bottom: 20px;
+
+      .img__category {
+        width: 500px;
+      }
+    }
   }
 }

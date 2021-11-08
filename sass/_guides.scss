@@ -1,35 +1,32 @@
 .guides {
-  margin-top: 50px;
-  display: flex;
-
   .guide__images {
-    width: 50%;
     padding: 0;
+
     .img__guide {
       width: 100%;
     }
   }
 }
+
 .guides {
   .guides__container {
     background-color: rgb(13, 91, 13);
-    width: 50%;
     font-size: 18px;
     font-style: italic;
     color: white;
-    padding: 0 60px;
 
+    padding: 50px 20px;
     .title__guides {
-      margin: 50px 0;
+      margin-bottom: 20px;
     }
     .guides__container--description {
       .guides__description {
         display: flex;
         margin-bottom: 20px;
+
         .guides__ico {
           font-size: 60px;
           border: 2px;
-          display: flex;
           justify-content: center;
           align-items: center;
           margin-right: 20px;
@@ -40,6 +37,23 @@
           margin: 0;
         }
       }
+    }
+  }
+}
+
+@media (min-width: 950px) {
+  .guides {
+    display: flex;
+
+    .guide__images {
+      width: 50%;
+      .img__guide {
+        height: 500px;
+      }
+    }
+    .guides__container {
+      width: 50%;
+      padding-top: 70px;
     }
   }
 }

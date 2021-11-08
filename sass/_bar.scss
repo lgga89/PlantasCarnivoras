@@ -1,19 +1,18 @@
 .bar {
   background: green;
+  width: 100%;
   color: white;
-  padding: 40px;
+
   .bar__container {
-    max-width: 100%;
-    margin: 0 auto;
-    display: flex;
-    justify-content: center;
+    text-align: center;
+    padding: 20px 0;
     .title__bar {
-      margin: 0;
-      padding: 15px 40px;
+      padding: 0 10px;
     }
     .btn__bar {
       background-color: #199319;
       color: white;
+      margin-top: 20px;
       padding: 15px 40px;
       text-decoration: none;
       cursor: pointer;
@@ -26,6 +25,20 @@
     .btn__bar:hover {
       color: #1883ba;
       background-color: #ffffff;
+    }
+  }
+}
+
+@media (min-width: 950px) {
+  .bar {
+    .bar__container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      .btn__bar {
+        margin-top: 0;
+        margin-left: 20px;
+      }
     }
   }
 }

@@ -1,27 +1,89 @@
 .service {
-  .service__container--img {
-    width: 100%;
+  .title__service {
+    text-align: center;
+    margin: 50px 0;
+  }
+  .service__container {
+    .service__img {
+      display: none;
+    }
+    .service__information {
+      padding: 0 10px;
+      .service__information--top {
+        .container__information {
+          display: flex;
+          margin-bottom: 20px;
+          .ico__service {
+            padding-top: 10px;
+            color: green;
+          }
+          .information {
+            padding-left: 10px;
+          }
+        }
+      }
+      .service__information--botton {
+        .container__information {
+          display: flex;
+          margin-bottom: 20px;
+          .ico__service {
+            padding-top: 10px;
+            color: green;
+          }
+          .information {
+            padding-left: 10px;
+          }
+        }
+      }
+    }
   }
 }
 
-/*.service {
-  margin: 0 auto;
-  width: 80%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+@media (min-width: 480px) {
+  .service__information--botton,
+  .service__information--top {
+    .container__information {
+      .ico__service {
+        padding-top: 10px;
+        font-size: 30px;
+      }
+    }
+  }
 }
 
-.card {
-  border: none;
-}
+@media (min-width: 768px) {
+  .service {
+    .service__container {
+      display: flex;
 
-.ico__service {
-  color: green;
-  font-size: 30px;
+      .service__information {
+        .service__information--top,
+        .service__information--botton {
+          display: flex;
+          .container__information {
+            width: 50%;
+            .ico__service {
+              padding-top: 5px;
+            }
+          }
+        }
+      }
+    }
+  }
 }
-
-.img_service {
-  width: 60%;
+@media (min-width: 950px) {
+  .service {
+    .service__container {
+      display: flex;
+      align-items: center;
+      .service__img {
+        display: inline;
+        width: 50%;
+        text-align: center;
+      }
+      .service__information {
+        width: 50%;
+      }
+    }
+  }
 }
-*/
